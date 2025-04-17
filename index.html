@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    
+
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Tailwind CDN-->
+    <!--<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"> -->
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>Talk to us</h1>
+        <div class="container__user">
+            <img class="container__user__img" src="./images/user.png" alt="user">
+            <input class="container__user__name" type="text" placeholder="Enter Name">
+
+        </div>
+        <div class="container__user">
+            <img class="container__user__img" src="./images/email.png" alt="email">
+            <input class="container__user__name" type="email" placeholder="Enter Email">
+
+        </div>
+        <div class="textarea__container">
+            <textarea class="textarea__container__tarea"name="" rows="6" cols="30" maxlength="50" "
+                placeholder="Enter Your Message Here..." id="textarea"></textarea>
+            <div class="textarea__container__count">
+                <span class="charactercount">0</span>
+                <span>/50</span>
+            </div>
+        </div>
+        <button>Send</button>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

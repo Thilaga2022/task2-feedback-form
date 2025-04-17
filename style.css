@@ -1,0 +1,84 @@
+
+body{
+    
+    
+    margin: 0 auto;
+    max-width: 1200px;
+    
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    margin-top: 20px;
+    
+    
+}
+.container__user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding: 8px;
+    height: 20%;
+    margin-bottom: 5px;
+    
+    
+}
+.container__user__img{
+    width: 20px;
+   
+}
+.container__user__name{
+    width: 90%;
+    padding: 2px;
+    border: none;
+
+}
+
+.container__user__name:focus{
+    outline: none;
+}
+
+.textarea__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    padding-left: 10px;
+    width: 40%;
+    margin-bottom: 20px;
+    height: 35%;
+}
+
+.textarea__container__tarea{
+    border: none;
+}
+.textarea__container__tarea:focus{
+    outline: none;
+}
+
+.textarea__container__count{
+    margin-top: 110px;
+}
+
+button{
+    width: 15%;
+    padding: 5px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.no-cursor {
+    cursor: not-allowed;
+    caret-color: transparent; /* hides the blinking cursor */
+  }
+
